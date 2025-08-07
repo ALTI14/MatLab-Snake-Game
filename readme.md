@@ -2,7 +2,7 @@
 
 A simple, classic Snake game implemented entirely in MATLAB. Control a growing snake on a 30×30 grid, eat red food blocks to score points, and avoid colliding with yourself as you wrap around the edges.
 
-## Screenshot
+## Screenshot From In-game
 
 ![Snake Game](snakemy.png)
 
@@ -15,3 +15,6 @@ A simple, classic Snake game implemented entirely in MATLAB. Control a growing s
 - **Live score display** above the playing field  
 - **Modal dialogs** for welcome instructions and “Game Over” messages  
 
+## Known Issue
+- There’s a bug that allows a rapid 180° turn and immediate self-collision at the second segment.  
+  *Reproduce by moving right and quickly pressing S then A before the next frame.*
