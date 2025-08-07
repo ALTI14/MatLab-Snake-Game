@@ -45,7 +45,7 @@ snake.ax = axes(...
     'Color','k', ... % Black background for game space
     'XTick', [], ... % Removes tick marks and numbers from X axis
     'YTick', [], ... % Removes tick marks and numbers from Y axis
-    'Box', 'on' ... % draws a visible boc around the game space
+    'Box', 'on' ... % Draws a visible box around the game space
     );
 %axis(snake.ax, 'equal'); % To ensure one unit in X equals one in Y
                          %(To create square cells) moves x axis as well
@@ -206,5 +206,6 @@ switch dirStr
     case 'right', v = [ 1  0];
 end
 end
+
 
 end
