@@ -4,7 +4,7 @@ A simple, classic Snake game implemented entirely in MATLAB. Control a growing s
 
 ## Screenshot
 
-![Snake Game](images/snakemy.png)
+![Snake Game](snakemy.png)
 
 ## Features
 - **Grid-based gameplay** on a 30×30 board  
@@ -14,3 +14,4 @@ A simple, classic Snake game implemented entirely in MATLAB. Control a growing s
 - **Collision detection**: game ends immediately if your head runs into any part of your body  
 - **Live score display** above the playing field  
 - **Modal dialogs** for welcome instructions and “Game Over” messages  
+
