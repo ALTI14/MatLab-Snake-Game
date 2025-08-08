@@ -70,7 +70,7 @@ for i = 1:segSize
         'Position', [cx-halfCell, cy-halfCell, cellSize, cellSize], ...
         ... % 1. x lower left 2. y lower left 3. width (horizontal) 4. height
         'FaceColor', 'g', ... % Fill with green inside
-        'EdgeColor', 'k'); % Black outline to seperate segments
+        'EdgeColor', 'k'); % Black outline to separate segments
 end
 
 fx = randi(gridSize-1); % random coords for food coordinates
@@ -210,4 +210,5 @@ end
 
 
 end
+
 
