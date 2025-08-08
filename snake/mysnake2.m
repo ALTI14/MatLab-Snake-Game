@@ -129,6 +129,7 @@ switch event.Key
 
     case 'escape'
         stop(snake.timer); delete(snake.timer); % stop timer
+        close(src);
         return
 end
 guidata(src, snake); % the new snake.direction value
@@ -209,3 +210,4 @@ end
 
 
 end
+
